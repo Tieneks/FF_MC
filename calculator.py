@@ -1,4 +1,4 @@
-''' Dit is versie 3'''
+''' Dit is versie 3.1'''
 
 # This function adds two numbers
 def add(x, y):
