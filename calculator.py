@@ -1,4 +1,4 @@
-''' Dit is versie 3.1'''
+''' Dit is versie 3.2'''
 
 # This function adds two numbers
 def add(x, y):
@@ -16,7 +16,7 @@ def multiply(x, y):
 def divide(x, y):
    return x / y
 
-print("Deze tekst is anders. Maak een keuze.")
+print("Maak een keuze.")
 print("1.Optellen")
 print("2.Aftrekken")
 print("3.Vermenigvuldigen")
