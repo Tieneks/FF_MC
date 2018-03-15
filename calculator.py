@@ -1,9 +1,43 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /download/calculator.py was not found on this server.</p>
-<hr>
-<address>Apache/2.4.18 (Ubuntu) Server at 13.81.85.170 Port 80</address>
-</body></html>
+''' Program make a simple calculator that can add, subtract, multiply and divide'''
+
+# This function adds two numbers
+def add(x, y):
+   return x + y
+
+# This function subtracts two numbers
+def subtract(x, y):
+   return x - y
+
+# This function multiplies two numbers
+def multiply(x, y):
+   return x * y
+
+# This function divides two numbers
+def divide(x, y):
+   return x / y
+
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
+# Take input from the user
+choice = input("Enter choice(1/2/3/4):")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if choice == 1:
+   print(num1, "+", num2, "=", add(num1,num2))
+
+elif choice == 2:
+   print(num1,"-",num2,"=", subtract(num1,num2))
+
+elif choice == 3:
+   print(num1,"*",num2,"=", multiply(num1,num2))
+
+elif choice == 4:
+   print(num1,"/",num2,"=", divide(num1,num2))
+else:
+   print("Invalid input")
