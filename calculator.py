@@ -1,4 +1,4 @@
-''' dit is een andere tekst Program make a simple calculator that can add, subtract, multiply and divide'''
+''' Dit is versie 3'''
 
 # This function adds two numbers
 def add(x, y):
@@ -16,7 +16,7 @@ def multiply(x, y):
 def divide(x, y):
    return x / y
 
-print("Select operation.")
+print("Deze tekst is anders. Maak een keuze.")
 print("1.Optellen")
 print("2.Aftrekken")
 print("3.Vermenigvuldigen")
