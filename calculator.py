@@ -1,4 +1,4 @@
-''' Program make a simple calculator that can add, subtract, multiply and divide'''
+''' dit is een andere tekst Program make a simple calculator that can add, subtract, multiply and divide'''
 
 # This function adds two numbers
 def add(x, y):
